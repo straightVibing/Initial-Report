@@ -34,6 +34,23 @@ header-includes: |
         \usepackage{blindtext}
 ---
 
+# Critical Review
+
+- Wastewater in the UK
+- How bad is it and evidence
+- Establish clear problem
+- Bring up MFCs
+- Description and discussion of major design parameters
+    - Could do a table or something
+
+# Aims
+
+- Assess currently available literature on MFCs 
+- Present a clear and logical narrative
+- High quality critical analysis 
+- Set the project within a wider context
+
+
 # The Plan
 
 - Literature read in preparation for dissertation
@@ -53,3 +70,7 @@ header-includes: |
         - Specific work relevant to my project
         - What are the assumptions and why?
         - Parameters that were considered and why?
+
+## Background
+
+### Microbial fuel cells.
