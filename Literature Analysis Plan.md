@@ -115,8 +115,8 @@
 
 - Mediator is used to separate out cathodic and anodic fluids
 - Anode volume of 20 ml so probably some scale-up issues 
-
-
+- Best result obtained at 35 degrees
+- Power stably generated over 2 years
 
 
 
