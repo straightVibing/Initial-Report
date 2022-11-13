@@ -19,7 +19,7 @@
 
 ## Review Papers
 
-### Developments in microbial fuel cell modeling
+### Developments in microbial fuel cell modelling
 
 - "Interest has significantly increased in recent decades"
 - MFC modelling tends to be neglected
