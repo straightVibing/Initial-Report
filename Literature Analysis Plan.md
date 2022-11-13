@@ -94,7 +94,6 @@
 
 ## Experimental Only Work
 
-
 ### Investigation of key parameters influence on performance of direct ethanol fuel cell 
 
 - Not strictly about MFCs
@@ -110,10 +109,12 @@
 - We don't want biofilm growth on cathode due to increased proton transfer resistance
 - Colonized with wastewater - University of Connecticut wastewater treatment plant
 - Doesn't talk about flow
-
+- Operated at 30 degrees
 
 ### Continuous electricity production from artificial wastewater using a mediator-less microbial fuel cell
 
+- Mediator is used to separate out cathodic and anodic fluids
+- Anode volume of 20 ml so probably some scale-up issues 
 
 
 
