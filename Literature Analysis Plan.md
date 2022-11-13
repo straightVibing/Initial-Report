@@ -109,6 +109,7 @@
 - Operated for 26 weeks
 - We don't want biofilm growth on cathode due to increased proton transfer resistance
 - Colonized with wastewater - University of Connecticut wastewater treatment plant
+- Doesn't talk about flow
 
 
 ### Continuous electricity production from artificial wastewater using a mediator-less microbial fuel cell
