@@ -25,7 +25,7 @@ header-includes: |
         \usepackage{graphicx}
         \usepackage{fancyhdr}
         \pagestyle{fancy}
-        \fancyhead[L]{Literatue Analysis}
+        \fancyhead[L]{Literature Analysis}
         \fancyhead[R]{Fred Barrett}
         \usepackage{hyperref}
         \usepackage{amsmath}
@@ -35,3 +35,21 @@ header-includes: |
 ---
 
 # The Plan
+
+- Literature read in preparation for dissertation
+- Covers a range of key topics
+    - Background and context:
+        - Expand my knowledge 
+        - Provide information for the reader
+    - Review papers:
+        - What is the current situation in the research community
+        - Work that has been done
+        - Suggested areas of future work
+    - Experimental work:
+        - Detailed information on current capabilities
+        - Results that can be used for comparison to test model viability
+        - Helps define what our models should be looking for
+    - Modelling Papers
+        - Specific work relevant to my project
+        - What are the assumptions and why?
+        - Parameters that were considered and why?
