@@ -5,6 +5,7 @@ geometry:
 
 - top = 20mm
 - left = 20mm
+- right = 20mm
 documentclass: article
 
 
@@ -41,8 +42,8 @@ header-includes: |
 - Establish clear problem
 - Bring up MFCs
 - Description and discussion of major design parameters
-    - Could do a table or something
-- Can use diagram from Zheng and Halme 1995
+    - A table could be a coherent way show them
+- Can use diagram from Zheng and Halme 1995 for visualisation 
 
 # Aims
 
@@ -79,13 +80,15 @@ header-includes: |
 
 - Most of the information I've learned from this will go in the beginning 
     - Key parameters, general design etc
-- Stat on max working voltage 0.3-0.7V
+- Proposes how an MFC based Wastewater Treatment Plant would function
+    - Evidence for intro/motivations of research 
+    - Approximately 200 mg L$^{-1}$ of organic matter in fluid 
+        - Possible value for model parameter
 - Concept of normalising power by surface area and volume
-    - We care the most about volumetric
-- Anode potential varies across bacteria strains
+    - A way to assess performance of model and provide comparison
+        - Highest is 0.115 kW m$^3$ 
 - Minimise Rint
 - Energy efficiency ranges from 2%-50%
-- Proposes how an MFC based WWTP would function 
 
 ## Review
 
@@ -106,8 +109,7 @@ header-includes: |
 - Different models make different assumptions:
     - Full vs half cell models
     - Mechanism vs Application based
-        - Mechanism: Focus on key reaction processes: substrate utilisation, voltage and current
-        , biofilm formation etc
+        - Mechanism: Focus on key reaction processes: substrate utilisation, voltage and current, biofilm formation etc
         - Application: Focus on electrical models to aide understanding of how MFCs will function as electrical devices
     - Mine will be mechanism based 
 - Doesn't mention models that considered temperature as their primary parameter
@@ -120,18 +122,25 @@ header-includes: |
 - Operated for 26 weeks
 - We don't want biofilm growth on cathode due to increased proton transfer resistance
 - Colonized with wastewater - University of Connecticut wastewater treatment plant
-- Doesn't talk about flow
+    - Potential flow basis for my model
 - Operated at 30 degrees
 
 ### Continuous electricity production from artificial wastewater using a mediator-less microbial fuel cell
 
 - Mediator is used to separate out cathodic and anodic fluids
-- Anode volume of 20 ml so probably some scale-up issues 
+- Anode volume of 20 ml
+    - scale-up issues 
 - Best result obtained at 35 degrees
+    - Not realistic for UK expect for heatwaves
 - Power stably generated over 2 years
+    - Viability for larger scale deployment if individual cells don't require frequent maintenance
 
 ### Electricity generation of single-chamber microbial fuel cells at low temperatures
 
+- Main source of comparison with my model at present
+- 4-30 degrees C
+- States that initially operating MFCs at 30 degrees allows them to provide reasonable power generation at lower temperatures
+- Evidence for feasibility of project 
 
 ## Modelling
 
@@ -153,7 +162,6 @@ header-includes: |
     - Experiments from 35 - 60 days
     - Adjusted influent acetate concentration between 275 - 2550 mg-S L-1
     - External resistance set between ~10-25 ohms above Rint as well as 5 ohms (below Rint)
-
 - Validated with experimental results
     - Plots of simulated vs measured results show the models follows the patterns of behavior of MFCs
     - Results look pretty good based off graphical comparisons
@@ -175,7 +183,7 @@ header-includes: |
 - Whole cell model so anode and cathode
 - Model assesses after the startup phase of 32 days
 
-### Electricity generation and modeling of microbial fuel cell from continuous beer brewery wastewater
+### Electricity generation and modelling of microbial fuel cell from continuous beer brewery wastewater
 
 - COD removal efficiency of 40-43% classed as good enough for wastewater treatment
 - Low flow-rates considered in experimental work
