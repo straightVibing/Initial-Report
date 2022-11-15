@@ -1,5 +1,5 @@
 ---
-Title: "Literature Analysis "
+Title: "Literature Review"
 subtitle: "Fred Barrett"
 geometry:
 
@@ -8,6 +8,7 @@ geometry:
 - right = 20mm
 documentclass: article
 
+bibliography: Dissertation_References.bib
 
 fontsize: 10pt
 header-includes: |
