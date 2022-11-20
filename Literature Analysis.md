@@ -79,6 +79,11 @@ header-includes: |
 
 ### Microbial fuel cells
 
+A possible arrangement for a Wastewater Treatment Plant (WWTP) was considered by @Logan2008. This consisted of STEAL FROM THE BOOK. 
+
+@Logan2008
+
+
 - Most of the information I've learned from this will go in the beginning 
     - Key parameters, general design etc
 - Proposes how an MFC based Wastewater Treatment Plant would function
@@ -91,102 +96,40 @@ header-includes: |
 - Minimise Rint
 - Energy efficiency ranges from 2%-50%
 
-## Review
-
-### Developments in microbial fuel cell modelling
-
-- "Interest has significantly increased in recent decades"
-- MFC modelling tends to be neglected
-- Introduces the comprehensive type of models
-- Anode based 
-- Cathode based
-- Mentioned parameters that are important:
-    - Biofilm thickness
-    - Fuel flow rate and concentration
-    - Temperature (mentions experimental ranging from 15-40 degrees C)
-
-### Models for Microbial Fuel Cells: A critical review
-
-- Different models make different assumptions:
-    - Full vs half cell models
-    - Mechanism vs Application based
-        - Mechanism: Focus on key reaction processes: substrate utilisation, voltage and current, biofilm formation etc
-        - Application: Focus on electrical models to aide understanding of how MFCs will function as electrical devices
-    - Mine will be mechanism based 
-- Doesn't mention models that considered temperature as their primary parameter
-- Therefore my research has a USP
-
-## Experimental Work
-
-### Power generation from wastewater using single chamber microbial fuel cells (MFCs) with platinum-free cathodes and pre-colonized anodes
-
-- Operated for 26 weeks
-- We don't want biofilm growth on cathode due to increased proton transfer resistance
-- Colonized with wastewater - University of Connecticut wastewater treatment plant
-    - Potential flow basis for my model
-- Operated at 30 degrees
-
-### Continuous electricity production from artificial wastewater using a mediator-less microbial fuel cell
-
-- Mediator is used to separate out cathodic and anodic fluids
-- Anode volume of 20 ml
-    - scale-up issues 
-- Best result obtained at 35 degrees
-    - Not realistic for UK expect for heatwaves
-- Power stably generated over 2 years
-    - Viability for larger scale deployment if individual cells don't require frequent maintenance
-
-### Electricity generation of single-chamber microbial fuel cells at low temperatures
-
-- Main source of comparison with my model at present
-- 4-30 degrees C
-- States that initially operating MFCs at 30 degrees allows them to provide reasonable power generation at lower temperatures
-- Evidence for feasibility of project 
-
-## Modelling
-
-### A 1D mathematical model for a microbial fuel cell
-
-- Model correctly predicted how substrate concentration and temperature affect biofilm thickness and cell performance
-    - Therefore project is feasible 
-- Modelled temp ranges of 20,30 and 40 degrees
-    - Varying temperature is a possibility of these models
-- Since lower temperatures not considered, research maintains a niche
-
-### A two-population bio-electrochemical model of a microbial fuel cell
-
-- "Energy from organic waste cannot be recovered using traditional methods"
-- This is because it has a complex composition and is usually very dilute
-- Model based on anode and focuses on bio-chemical reactions there
-    - Therefore, assumes cathode reaction rate is non-limiting
-- Demonstrates influence of organic load and external resistance on the MFC power output and long term performance
-    - Experiments from 35 - 60 days
-    - Adjusted influent acetate concentration between 275 - 2550 mg-S L-1
-    - External resistance set between ~10-25 ohms above Rint as well as 5 ohms (below Rint)
-- Validated with experimental results
-    - Plots of simulated vs measured results show the models follows the patterns of behavior of MFCs
-    - Results look pretty good based off graphical comparisons
-
-### Modelling and simulation of two-chamber microbial fuel cell
-
-- "Modelling remain scarce" 
-- Claims cathodic reaction is the rate limiting step 
-- Flow has an effect on power
-- Artificial wastewater
-- Useful for scale-up
-- Claims reducing feed flow could increase power
 
 
-### A generalized whole-cell model for wastewater-fed microbial fuel cells
+Within recent years interest in MFCs has increased. This is made clear by review papers considering the current state of
+modelling work such as those by @Ortiz-Martínez2015 and @Xia2018. These papers are very useful as they provide a broad
+overview into the technical work in key areas such as potential cell architecture, key parameters to consider and common
+model assumptions.
 
-- Mentions a lit review that found COD removal efficiency can be between 5-99% depending on operating conditions.
-- Experimental work featured municipal wastewater
-- Whole cell model so anode and cathode
-- Model assesses after the startup phase of 32 days
+For instance, comprehensive models that seek to model all major processes such as the mass diffusion and substrate 
+consumption can be either half cell models that consider the activity around the anode or full cell models that consider both the anode and cathode. Whilst the reaction around the anode is generally considered the limiting stage within the cell, the model for this proposed project will be a full model to provide as much insight into the internal processes of the cell when supplied with a low temperature feed. As a result, the model will be able to produce outputs relating to 
+the biofilm thickness, fuel flow rate and concentration in addition to the electricity generation for comparison to 
+experimental data. 
 
-### Electricity generation and modelling of microbial fuel cell from continuous beer brewery wastewater
+The experimental work around MFCs has been studied for longer than the modelling aspect and as a result there are plenty
+of papers available that provide experimental data for comparison with the results from a model. For this project, the main papers considered for this proposal focused on long term operation of MFCs.
+@Santoro2012 operated a cell for 26 weeks, operated at 30$^{\circ}$C whilst @Moon2006 were able to operate multiple cells for 2 years over a range of temperatures. These results illustrate the operational viability of MFCs 
+as successful long term operation reduces the need for maintenance or replacement of cells. This is important
+because if MFCs are used as part of a WWTP then they may not be readily accessible. REWORD
 
-- COD removal efficiency of 40-43% classed as good enough for wastewater treatment
-- Low flow-rates considered in experimental work
-- Most detailed wastewater description
-- Cell operated between 20-28 degrees C
+However, the temperatures considered by both of these papers are not reflective of typical temperatures of UK wastewater SOURCE. Therefore, the is scope for research into the performance of MFCs at lower temperatures to determine potential
+power outputs and thus potential feasibility. 
+
+To provide experimental data for direct comparison with the proposed model the work done by @Cheng2011 has been considered.
+This research involved testing the power output of MFCs between 4-30$^{\circ}$C having initialised them at 15$^{\circ}$C or 30$^{\circ}$C prior. This research suggests that cells initialised at higher temperatures produce reasonable 
+quantities of power and could be used within a WWTP in the UK. This is an important fact to establish prior to any modelling work as it demonstrates that operation of these cells at lower temperatures is possible and therefore 
+time spent modelling them is not being wasted. 
+
+The large amount of experimental work provides plenty of data to validate new and existing MFC models. One such example 
+is a 1D WHAT DOES THIS MEAN model  developed by @Oliveira2013 that could correctly predict how the substrate concentration and temperature affected the cells biofilm thickness and performance. As part of this the 
+temperature considered by model was adjusted between the values of 20$^{\circ}$C, 30$^{\circ}$C and 40$^{\circ}$C. 
+The key takeaway from this is that there are models accurate and reliable models available that allow for adjustment
+of the temperature. Therefore, this model could potentially be adapted to investigate MFC performance at lower temperatures as part of the proposed project
+
+Other potential models that could be used as the basis for the project include those considered by @Pinto2010 and @Zheng2010. Both of these were able to successfully predict MFC behaviour and performance when compared to 
+experimental data despite being based on different principles. @Pinto2010 developed a half-cell model based 
+on the anode whilst @Zheng2010 developed a model based on the cathode. This was unusual as the anodic step is generally considered to be reaction limiting. The existence and accuracy of these models demonstrates that there is good degree of flexibility available when initially building and then refining a model. As a result, the final model considered by the project may differ significantly from the one considered initially. 
+
+# References
