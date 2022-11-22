@@ -75,28 +75,55 @@ header-includes: |
         - What are the assumptions and why?
         - Parameters that were considered and why?
 
-## Background
+## Introduction
 
-### Microbial fuel cells
+A broad overview of Microbial Fuel Cells is provided by a textbook on the subject by @Logan2008. 
 
-A possible arrangement for a Wastewater Treatment Plant (WWTP) was considered by @Logan2008. This consisted of STEAL FROM THE BOOK. 
+- Power generation
+    - Polarisation and power curves are used to characterise MFC power generation
+    - Changing the external resistance provides variable voltage
+    - _Use a good example to illustrate to the reader_
+    - We can use polarisation curve to calculate current and plot current vs voltage or current density
+    - Generally split into three sections - middle is the most important as it shows internal resistance of cell
+    - Shows how well the MFC maintains a voltage as a function of current production
+    - Maximum power can be read off the top of the curve
+    - External resistance has to be used as low resistance in the cell is not enough for feasible power generation
+    - We don't want to increase internal resistance because the cell will perform significantly worse
+- Mixed vs pure culture 
+- Air cathode 
+- Architecture
+- Materials
+    - Common option is carbon cloth
+    - Cheap and porous
+    - Good for bacteria to grow on
+- Biofilm
+    - Layers of bacteria that form on the anode 
+    - Increasing bacteria increases electron release
+    - If biofilm is too thick then there are mass transport issues
+    - _How do we control it?_
+- Temperature
+    - Process is fundamentally biological 
+    - Therefore bacteria is affected by temperature 
+    - Higher temperatures generally correlate with larger power output
+- Flowrate
 
-@Logan2008
 
+## Literature Review
 
-- Most of the information I've learned from this will go in the beginning 
-    - Key parameters, general design etc
-- Proposes how an MFC based Wastewater Treatment Plant would function
-    - Evidence for intro/motivations of research 
-    - Approximately 200 mg L$^{-1}$ of organic matter in fluid 
-        - Possible value for model parameter
-- Concept of normalising power by surface area and volume
-    - A way to assess performance of model and provide comparison
-        - Highest is 0.115 kW m$^3$ 
-- Minimise Rint
-- Energy efficiency ranges from 2%-50%
+A potential configuration for a domestic Wastewater Treatment Plant (WWTP) was considered by @Logan2008 and is shown below in Figure \ref{fig:WWTP_Diagram}.
 
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{WWTP_Diagram.png}
+  \caption{Process flow train for a domestic wastewater treatment plant (Logan,2008)}
+  \label{fig:WWTP_Diagram}
+\end{figure}
 
+First the wastewater is screened to remove large pieces of debris that may have entered upstream. The wastewater's flow is then measured and recorded. This allows for comparison with past data to determine any anomalous flow that may enter the system as 
+as result of flooding or similar events. The wastewater then undergoes grit removal to prevent gritty particles such as coffee grinds 
+or bones from damaging pumps. Typically this will involve a hydraulic residence time (HRT) of between 1-20 minutes. Following this, the wastewater will be tested for either its biochemical oxygen demand (BOD) or its chemical oxygen demand (COD). The BOD takes 5 days and shows what material can be biologically removed, whilst the rapid COD test provides an assessment of all organic matter present.  
+
+Some of the biological material present as particulates is then removed in the primary clarifier, usually by collecting solids that accumulate at the bottom of the tank in a process with a HRT between 1-3 hours. Once this has been done the biological material will have been reduced to around 200 mg L$^{-1}$ and the water will be ready for the wastewater treatment. It is proposed that this step will be done by a system based on MFCs to take advantage of the electricity generation and other related benefits over current systems. Finally the wastewater goes a chlorination stage to kill of any remaining bacteria and then a dechlorination stage to prevent
+harm coming to aquatic life located where the water is released. 
 
 Within recent years interest in MFCs has increased. This is made clear by review papers considering the current state of
 modelling work such as those by @Ortiz-Martínez2015 and @Xia2018. These papers are very useful as they provide a broad
@@ -110,9 +137,10 @@ experimental data.
 
 The experimental work around MFCs has been studied for longer than the modelling aspect and as a result there are plenty
 of papers available that provide experimental data for comparison with the results from a model. For this project, the main papers considered for this proposal focused on long term operation of MFCs.
-@Santoro2012 operated a cell for 26 weeks, operated at 30$^{\circ}$C whilst @Moon2006 were able to operate multiple cells for 2 years over a range of temperatures. These results illustrate the operational viability of MFCs 
-as successful long term operation reduces the need for maintenance or replacement of cells. This is important
-because if MFCs are used as part of a WWTP then they may not be readily accessible. REWORD
+@Santoro2012 operated a cell for 26 weeks, operated at 30$^{\circ}$C whilst @Moon2006 were able to operate multiple cells for 2 years over a range of temperatures. These results illustrate the 
+
+operational viability of MFCs 
+as successful long term operation reduces the need for maintenance or replacement of cells. This in turn allows MFC systems to be operated for longer resulting in reliable wastewater treatment.
 
 However, the temperatures considered by both of these papers are not reflective of typical temperatures of UK wastewater SOURCE. Therefore, the is scope for research into the performance of MFCs at lower temperatures to determine potential
 power outputs and thus potential feasibility. 
@@ -123,7 +151,7 @@ quantities of power and could be used within a WWTP in the UK. This is an import
 time spent modelling them is not being wasted. 
 
 The large amount of experimental work provides plenty of data to validate new and existing MFC models. One such example 
-is a 1D WHAT DOES THIS MEAN model  developed by @Oliveira2013 that could correctly predict how the substrate concentration and temperature affected the cells biofilm thickness and performance. As part of this the 
+is a model  developed by @Oliveira2013 that could correctly predict how the substrate concentration and temperature affected the cells biofilm thickness and performance. As part of this the 
 temperature considered by model was adjusted between the values of 20$^{\circ}$C, 30$^{\circ}$C and 40$^{\circ}$C. 
 The key takeaway from this is that there are models accurate and reliable models available that allow for adjustment
 of the temperature. Therefore, this model could potentially be adapted to investigate MFC performance at lower temperatures as part of the proposed project
