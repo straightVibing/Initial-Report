@@ -90,6 +90,17 @@ A broad overview of Microbial Fuel Cells is provided by a textbook on the subjec
     - External resistance has to be used as low resistance in the cell is not enough for feasible power generation
     - We don't want to increase internal resistance because the cell will perform significantly worse
 - Mixed vs pure culture 
+    - Jadhav + Ghangrekar 2020
+    - Mixed cultures are better for overall functionality
+        - Higher specific power 
+        - Resistance against shock load conditions
+        - Reduced substrate specificity 
+        - Lower Coulombic efficiency
+    - Pure have increased power output and 
+    Coulombic efficiency
+        - Increased cost
+        -  Risk of contamination
+        - Difficult to isolate a single strain 
 - Air cathode 
 - Architecture
 - Materials
@@ -142,7 +153,7 @@ of papers available that provide experimental data for comparison with the resul
 operational viability of MFCs 
 as successful long term operation reduces the need for maintenance or replacement of cells. This in turn allows MFC systems to be operated for longer resulting in reliable wastewater treatment.
 
-However, the temperatures considered by both of these papers are not reflective of typical temperatures of UK wastewater SOURCE. Therefore, the is scope for research into the performance of MFCs at lower temperatures to determine potential
+However, the temperatures considered by both of these papers are not reflective of typical temperatures of UK wastewater _Access Database evidence_. Therefore, the is scope for research into the performance of MFCs at lower temperatures to determine potential
 power outputs and thus potential feasibility. 
 
 To provide experimental data for direct comparison with the proposed model the work done by @Cheng2011 has been considered.
