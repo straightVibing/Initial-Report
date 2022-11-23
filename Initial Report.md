@@ -1,5 +1,5 @@
 ---
-Title: "Literature Review"
+Title: "Initial Report"
 subtitle: "Fred Barrett"
 geometry:
 
@@ -27,7 +27,7 @@ header-includes: |
         \usepackage{graphicx}
         \usepackage{fancyhdr}
         \pagestyle{fancy}
-        \fancyhead[L]{Literature Analysis}
+        \fancyhead[L]{Initial Report}
         \fancyhead[R]{Fred Barrett}
         \usepackage{hyperref}
         \usepackage{amsmath}
@@ -35,6 +35,10 @@ header-includes: |
         \usepackage{lipsum}
         \usepackage{blindtext}
 ---
+
+TITLE PAGE HERE
+
+\tableofcontents
 
 # Introduction/Motivations/Objectives/Context
 
@@ -75,7 +79,7 @@ header-includes: |
         - What are the assumptions and why?
         - Parameters that were considered and why?
 
-## Introduction
+# Introduction
 
 A broad overview of Microbial Fuel Cells is provided by a textbook on the subject by @Logan2008. 
 
@@ -119,7 +123,7 @@ A broad overview of Microbial Fuel Cells is provided by a textbook on the subjec
 - Flowrate
 
 
-## Literature Review
+# Literature Review
 
 A potential configuration for a domestic Wastewater Treatment Plant (WWTP) was considered by @Logan2008 and is shown below in Figure \ref{fig:WWTP_Diagram}.
 
