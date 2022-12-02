@@ -66,14 +66,11 @@ header-includes: |
 ## A Potential Solution
 
 - New technology could provide a solution 
-- Microbial Fuel Cells have been around 
-- @Herrero-Hernande2013 wastewater treatment and electricity production is viable 
-- Bring up MFCs
-- Description and discussion of major design parameters
-    - When mention these very be brief so that you can then expand in the background and literature review
-- Get/make a diagram to illustrate how the key component
-    - Draw.io or similar should be fine
-    - REMEMBER TO MENTION THAT THE MEMBRANE IS AN OPTIONAL STEP
+- Interest in MFCs has existed since the mid-19th century @Scott2016
+    -  Tech wasn't viable enough
+- @Herrero-Hernande2013 wastewater treatment and electricity production is viable today
+
+FIGURE HERE
 
 The principal components of a Microbial Fuel Cell are an anode and a cathode, @Logan2008. These can be arranged in a variety of ways with multiple of either comprising the cell. In addition, a membrane can be included to separate anodic and cathodic liquids however these are not preferred as they increase the internal resistance of the cell, reducing electron transfer.  
 
