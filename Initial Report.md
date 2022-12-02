@@ -65,11 +65,9 @@ header-includes: |
 
 ## A Potential Solution
 
+- New technology could provide a solution 
+- Microbial Fuel Cells have been around 
 - @Herrero-Hernande2013 wastewater treatment and electricity production is viable 
-
-- Wastewater in the UK
-- How bad is it and evidence
-- Establish clear problem
 - Bring up MFCs
 - Description and discussion of major design parameters
     - When mention these very be brief so that you can then expand in the background and literature review
@@ -171,8 +169,10 @@ Common material options are carbon based and include: carbon foam, carbon felt, 
 
 ## Cathode oxidising agent
 
-- Usually oxygen 
-- Have a look at Logan
+- @Scott2016
+- The oxidant is reduced by a catalyst
+- In MFCs this produces water
+- Since we're dealing with protons, oxygen is a natural choice of catalyst
 
 ## Flow rate
 
