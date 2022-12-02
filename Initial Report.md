@@ -133,40 +133,37 @@ A related parameter is the Coulombic efficiency which is the fraction of electro
 Due to the biological nature of MFCs, the purity of bacterial species used on the anode is a parameter for optimisation as considered by @Jadhav2020. Pure cultures tend to produce an increased power output and Coulombic efficiency compared to mixed cultures.
 However, this comes at the cost of an increased cost to procure the bacteria, due to the inherent difficulty of fully separating bacterial strains, as well as the risk of contamination from wastewater. On the other hand, mixed cultures are better for overall functionality due to their reduced substrate specificity and resistance to shock load conditions. Therefore, the more feasible MFC designs for scale-up will contain mixed cultures.
 
+## Biofilm
+
+The biofilm of an MFC is the layers of bacteria that form on the anode. As the thickness of the biofilm increases the quantity of bacteria increases, this allows for an increased rate of electron release as the organic matter present is broken down. However, if the biofilm is too thick then there will be mass transport issues that will reduce the power output of the cell. As a result, according to @Logan2008, biofilms are generally a few millimetres thick.  
+
 ## Architecture
 
 The principal components of a Microbial Fuel Cell are an anode and a cathode, @Logan2008. These can be arranged in a variety of ways with multiple of either comprising the cell. In addition, a membrane can be included to separate anodic and cathodic liquids however these are not preferred as they increase the internal resistance of the cell, reducing electron transfer.  
 
 ## Materials
 
-For large scale reactors, practical and inexpensive materials are desirable. These must be suitable for the anode, cathode and ,if one is used, a membrane. The cathode generally requires a catalyst and this is usually Pt although a non precious metal alternative would be preferred. When decided on a construction,material, @Logan2008 suggests that it should have a surface area to volume ratio of 100 m$^2$ m$^3$ of reactor. One material that meets this criteria is carbon cloth, which is commonly used as it is cheap and porous, which allows for good bacterial growth
+For large scale reactors, practical and inexpensive materials are desirable. These must be suitable for the anode, cathode and, if one is used, a membrane. The cathode generally requires a catalyst and this is usually Pt although a non-precious metal alternative would be preferred. When decided on a construction, material, @Logan2008 suggests that it should have a surface area to volume ratio of 100 m$^2$ m$^3$ of reactor.
+
+Common material options are carbon based and include: carbon foam, carbon felt, carbon cloth and carbon paper. These were all compared by @Mateo2018 were they were able to achieve a specific surface area of 7500 m$^2$/m$^{-2}$. 
 
 ## Cathode oxidising agent
 
 - Usually oxygen 
 - Have a look at Logan
 
-## Biofilm
-
-The biofilm of an MFC is the layers of bacteria that form on the anode. As the thickness of the biofilm increases the quantity of bacteria increases, this allows for an increased rate of electron release as the organic matter present is broken down. However, if the biofilm is too thick then there will be mass transport issues that will reduce the power output of the cell. As a result, according to @Logan2008, biofilms are generally a few millimetres thick.  
-
-## Temperature
-
-As the processes inside a MFC are fundamentally biological in nature the cell is affected by temperature. A higher temperature correlates with a larger power output as lower temperatures slow down the growth and reproduction of bacteria. 
-
-- USE THIS SECTION TO LINK TO INTRODUCTION/MOTIVATIONS LATER
-
 ## Flow rate
 
-The flow rate of wastewater or solution (BE CONSISTENT) into the cell dictates the available COD for the cell. By increasing it, the cell will be in contact with more organic matter ina  set period of time. However, if the flow rate is too high then the cell may not be able to achieve the required levels of COD removal, necessitating the inclusion of further downstream treatment. In addition, a high flow rate causes additional shear stress on the components within the cell and can lead to damage to bacterial damage.
-
-- _Get source on average UK individual production of wastewater and typical treatment plant values_
-- If each cell can deal with a high flow rate then we need less per unit volume, reducing costs, materials and maintenance 
+The flow rate of wastewater dictates the available COD for the cell. By increasing it, the cell will be in contact with more organic matter in a set period of time which as @Ieropoulos2010 states, is beneficial to treating wastewater. However, if the flow rate is too high then the cell may not be able to achieve the required levels of COD removal. This could necessitate the inclusion of further downstream treatment steps. Additionally, @Villaseñor2013 established that at high flow rates there is a risk of unoxidised matter entering the cathodic chamber, causing it to enter into anaerobic condition, stopping the MFC from working. 
 
 ## Maintenance 
 
 - How does one maintain a cell?
 - Important consideration for both lab and industrial scale
+
+## Temperature
+
+As the processes inside a MFC are fundamentally biological in nature the cell is affected by temperature. A higher temperature correlates with a larger power output as lower temperatures slow down the growth and reproduction of bacteria. 
 
 # Wastewater Treatment
 
@@ -178,11 +175,10 @@ A potential configuration for a domestic Wastewater Treatment Plant (WWTP) was c
   \label{fig:WWTP_Diagram}
 \end{figure}
 
-First the wastewater is screened to remove large pieces of debris that may have entered upstream. The wastewater's flow is then measured and recorded. This allows for comparison with past data to determine any anomalous flow that may enter the system as 
-as result of flooding or similar events. The wastewater then undergoes grit removal to prevent gritty particles such as coffee grinds 
-or bones from damaging pumps. Typically this will involve a hydraulic residence time (HRT) of between 1-20 minutes. Following this, the wastewater will be tested for either its biochemical oxygen demand (BOD) or its chemical oxygen demand (COD). The BOD takes 5 days and shows what material can be biologically removed, whilst the rapid COD test provides an assessment of all organic matter present.  
+First the wastewater is screened to remove large pieces of debris that may have entered upstream. The wastewater's flow is then measured and recorded. This allows for comparison with past data to determine any anomalous flow that may enter the system as a result of flooding or similar events. The wastewater then undergoes grit removal to prevent gritty particles such as coffee grinds 
+or bones from damaging pumps. Typically, this will involve a hydraulic residence time (HRT) of between 1-20 minutes. Following this, the wastewater will be tested for either its biochemical oxygen demand (BOD) or its chemical oxygen demand (COD). The BOD takes 5 days and shows what material can be biologically removed, whilst the rapid COD test provides an assessment of all organic matter present.  
 
-Some of the biological material present as particulates is then removed in the primary clarifier, usually by collecting solids that accumulate at the bottom of the tank in a process with a HRT between 1-3 hours. Once this has been done the biological material will have been reduced to around 200 mg L$^{-1}$ and the water will be ready for the wastewater treatment. It is proposed that this step will be done by a system based on MFCs to take advantage of the electricity generation and other related benefits over current systems. Finally the wastewater goes a chlorination stage to kill of any remaining bacteria and then a dechlorination stage to prevent harm coming to aquatic life located where the water is released. 
+Some biological material present as particulates is then removed in the primary clarifier, usually by collecting solids that accumulate at the bottom of the tank in a process with a HRT between 1-3 hours. Once this has been done the biological material will have been reduced to around 200 mg L$^{-1}$ and the water will be ready for the wastewater treatment. It is proposed that this step will be done by a system based on MFCs to take advantage of the electricity generation and other related benefits over current systems. Finally, the wastewater goes a chlorination stage to kill of any remaining bacteria and then a dechlorination stage to prevent harm coming to aquatic life located where the water is released. 
 
 # Literature Review
 
@@ -194,19 +190,19 @@ For instance, comprehensive models that seek to model all major processes such a
 
 ## Experimental Work
 
-The experimental work around MFCs has been studied for longer than the modelling aspect and as a result there are plenty of papers available that provide experimental data for comparison with the results from a model. For this project, the main papers considered for this proposal focused on long term operation of MFCs. @Santoro2012 operated a cell for 26 weeks, operated at 30$^{\circ}$C whilst @Moon2006 were able to operate multiple cells for 2 years over a range of temperatures. These results illustrate the operational viability of MFCs as successful long term operation reduces the need for maintenance or replacement of cells. This in turn allows MFC systems to be operated for longer resulting in reliable wastewater treatment.
+The experimental work concerning MFCs has been studied for longer than the modelling aspect and as a result there are plenty of papers available that provide experimental data for comparison with the results from a model. For this project, the main papers considered for this proposal focused on long term operation of MFCs. @Santoro2012 operated a cell for 26 weeks, operated at 30$^{\circ}$C whilst @Moon2006 were able to operate multiple cells for 2 years over a range of temperatures. These results illustrate the operational viability of MFCs as successful long term operation reduces the need for maintenance or replacement of cells. This in turn allows MFC systems to be operated for longer resulting in reliable wastewater treatment.
 
 However, the temperatures considered by both of these papers are not reflective of typical temperatures of UK wastewater _Access Database evidence_. Therefore, the is scope for research into the performance of MFCs at lower temperatures to determine potential power outputs and thus potential feasibility. 
 
 To provide experimental data for direct comparison with the proposed model the work done by @Cheng2011 has been considered.
-This research involved testing the power output of MFCs between 4-30$^{\circ}$C having initialised them at 15$^{\circ}$C or 30$^{\circ}$C prior. This research suggests that cells initialised at higher temperatures produce reasonable 
+The research involved testing the power output of MFCs between 4-30$^{\circ}$C having initialised them at 15$^{\circ}$C or 30$^{\circ}$C prior. This research suggests that cells initialised at higher temperatures produce reasonable 
 quantities of power and could be used within a WWTP in the UK. This is an important fact to establish prior to any modelling work as it demonstrates that operation of these cells at lower temperatures is possible and therefore 
 time spent modelling them is not being wasted. 
 
 ## Modelling Work
 
 The large amount of experimental work provides plenty of data to validate new and existing MFC models. One such example 
-is a model  developed by @Oliveira2013 that could correctly predict how the substrate concentration and temperature affected the cells biofilm thickness and performance. As part of this the 
+is a model developed by @Oliveira2013 that could correctly predict how the substrate concentration and temperature affected the cells biofilm thickness and performance. As part of this the 
 temperature considered by model was adjusted between the values of 20$^{\circ}$C, 30$^{\circ}$C and 40$^{\circ}$C. 
 The key takeaway from this is that there are models accurate and reliable models available that allow for adjustment
 of the temperature. Therefore, this model could potentially be adapted to investigate MFC performance at lower temperatures as part of the proposed project
@@ -220,6 +216,14 @@ on the anode whilst @Zheng2010 developed a model based on the cathode. This was 
 - MAKE THESE "SMART" 
 - MORE SPECIFIC AND DETAILED THAN THE ONES IN THE LITERATURE ANALYSIS
 
+# Project Schedule 
 
+- Gantt Chart
+    - Detailed
+    - Coursework dates
+    - Term dates
+    - Supervisor meetings?
+    - Clear stages 
+- Previous modelling experience
 
 # References
