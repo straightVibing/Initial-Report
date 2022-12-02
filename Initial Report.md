@@ -52,6 +52,21 @@ header-includes: |
 
 # Introduction
 
+- General opener
+
+## Wastewater in the UK
+
+- Untreated sewage dumped into rivers across the UK
+- More than 3000 times between 2017 and 2021 @Conway2022
+- This is despite regulation by Ofwat and the Environment Agency (GET MISSION STATEMENT SOURCES)
+- Only 14% of rivers in England can claim to have good ecological status @EAC2022
+- 36% of this pollution comes from Sewage and Wastewater @EAC2022
+- This needs sorting out
+
+## A Potential Solution
+
+- @Herrero-Hernande2013 wastewater treatment and electricity production is viable 
+
 - Wastewater in the UK
 - How bad is it and evidence
 - Establish clear problem
@@ -94,6 +109,7 @@ POTENTIALLY TALK ABOUT POWER GENERATION HERE
 
 # Motivation
 
+- Avid hiker and canoer 
 - I want to help this problem 
 - I enjoy clean water
 - I like modelling
@@ -144,7 +160,7 @@ The biofilm of an MFC is the layers of bacteria that form on the anode. As the t
 - The previous work should go into the introduction section
 - It makes the most sense when compared with the diagram from Zhang and Halme 
 - What should go here is the stuff that appears in the literature review
-
+- Half and full cell models and how they relate to chamber MFCs
 
 
 ## Materials
