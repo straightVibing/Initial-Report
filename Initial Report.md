@@ -62,6 +62,8 @@ header-includes: |
     - Draw.io or similar should be fine
     - REMEMBER TO MENTION THAT THE MEMBRANE IS AN OPTIONAL STEP
 
+The principal components of a Microbial Fuel Cell are an anode and a cathode, @Logan2008. These can be arranged in a variety of ways with multiple of either comprising the cell. In addition, a membrane can be included to separate anodic and cathodic liquids however these are not preferred as they increase the internal resistance of the cell, reducing electron transfer.  
+
 ## Key Parameters
 
 TABLE OF PARAMETERS
@@ -139,13 +141,17 @@ The biofilm of an MFC is the layers of bacteria that form on the anode. As the t
 
 ## Architecture
 
-The principal components of a Microbial Fuel Cell are an anode and a cathode, @Logan2008. These can be arranged in a variety of ways with multiple of either comprising the cell. In addition, a membrane can be included to separate anodic and cathodic liquids however these are not preferred as they increase the internal resistance of the cell, reducing electron transfer.  
+- The previous work should go into the introduction section
+- It makes the most sense when compared with the diagram from Zhang and Halme 
+- What should go here is the stuff that appears in the literature review
+
+
 
 ## Materials
 
 For large scale reactors, practical and inexpensive materials are desirable. These must be suitable for the anode, cathode and, if one is used, a membrane. The cathode generally requires a catalyst and this is usually Pt although a non-precious metal alternative would be preferred. When decided on a construction, material, @Logan2008 suggests that it should have a surface area to volume ratio of 100 m$^2$ m$^3$ of reactor.
 
-Common material options are carbon based and include: carbon foam, carbon felt, carbon cloth and carbon paper. These were all compared by @Mateo2018 were they were able to achieve a specific surface area of 7500 m$^2$/m$^{-2}$. 
+Common material options are carbon based and include: carbon foam, carbon felt, carbon cloth and carbon paper. These were all compared by @Mateo2018 were able to achieve a specific surface area of 7500 m$^2$/m$^{-2}$. As a result, the material used could vary depending on price fluctuations at the time of cell production. 
 
 ## Cathode oxidising agent
 
