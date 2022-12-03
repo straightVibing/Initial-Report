@@ -58,8 +58,7 @@ header-includes: |
 
 Reporting by @Conway2022 indicates that untreated sewage has been repeatedly released or dumped into rivers across the United Kingdom.
 In total, it is believed that sewage was dumped more than 3000 times between 2017 and 2021. This is despite regulation controls by 
-Ofwat, whose stated mission is "GET THE QUOTE" @Ofwat. According to @EAC2022, 36% of this pollution stems from sewage and wastewater
-sources. As a result, @EAC2022 claims that only 14% of rivers in England can claim to have good ecological status.
+Ofwat, whose stated vision is "to make the greatest contribution possible to improving life through water" @Ofwat2014. According to the Environment Audit Committee 36% of this pollution stems from sewage and wastewater sources, @EAC2022. As a result, only 14% of rivers in England can claim to have good ecological status.
 
 ## A Potential Solution
 
