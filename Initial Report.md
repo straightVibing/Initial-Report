@@ -80,17 +80,17 @@ The principal components of a Microbial Fuel Cell are an anode and a cathode, @L
 The key operational and fundamental parameters that affect MFCs are shown below in Table \ref{tab:parameters}. Several of these have
 been expanded within the Technical Background section of this proposal.
 
-| Parameter | Fixed or Variable |
+| Parameter | Notes |
 | --------- | ----------------- |
 | Feed COD | Variable |
-| Feed Flow rate | Variable |
-| Temperature | BOTH |
+| COD Removal Efficiency | Variable |
+| Culture Purity | Variable |
+| Biofilm | Variable |
 | Architecture | Fixed |
 | Material | Fixed |
 | Oxidising agent | Fixed |
-| Culture Purity | Not sure |
-| Biofilm thickness | Variable |
-| COD Removal Efficiency | Operational |
+| Feed Flow rate | Variable |
+| Temperature | Variable |
 
 Table: List of parameters
 \label{tab:parameters}
@@ -140,9 +140,13 @@ A related parameter is the Coulombic efficiency which is the fraction of electro
 Due to the biological nature of MFCs, the purity of bacterial species used on the anode is a parameter for optimisation as considered by @Jadhav2020. Pure cultures tend to produce an increased power output and Coulombic efficiency compared to mixed cultures.
 However, this comes at the cost of an increased cost to procure the bacteria, due to the inherent difficulty of fully separating bacterial strains, as well as the risk of contamination from wastewater. On the other hand, mixed cultures are better for overall functionality due to their reduced substrate specificity and resistance to shock load conditions. Therefore, the more feasible MFC designs for scale-up will contain mixed cultures.
 
+- NEEDS MORE DETAIL
+
 ## Biofilm
 
 The biofilm of an MFC is the layers of bacteria that form on the anode. As the thickness of the biofilm increases the quantity of bacteria increases, this allows for an increased rate of electron release as the organic matter present is broken down. However, if the biofilm is too thick then there will be mass transport issues that will reduce the power output of the cell. As a result, according to @Logan2008, biofilms are generally a few millimetres thick.  
+
+- NEEDS MORE DETAIL
 
 ## Architecture
 
