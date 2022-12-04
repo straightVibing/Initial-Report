@@ -164,10 +164,8 @@ Common material options are carbon based and include: carbon foam, carbon felt, 
 
 ## Cathode oxidising agent
 
-- @Scott2016
-- The oxidant is reduced by a catalyst
-- In MFCs this produces water
-- Since we're dealing with protons, oxygen is a natural choice of catalyst
+In an MFC the oxidised organic matter releases protons which are then reduced in the presence of a catalyst, @Scott2016. This is
+typically oxygen as it is readily available. This results in MFCs producing water as a by-product.
 
 ## Flow rate
 
