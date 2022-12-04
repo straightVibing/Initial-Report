@@ -62,10 +62,14 @@ Ofwat, whose stated vision is "to make the greatest contribution possible to imp
 
 ## A Potential Solution
 
-- New technology could provide a solution 
-- Interest in MFCs has existed since the mid-19th century @Scott2016
-    -  Tech wasn't viable enough
-- @Herrero-Hernande2013 wastewater treatment and electricity production is viable today
+A potential solution to this ecological problem is the introduction of new technology to current wastewater treatment techniques.
+Microbial Fuel Cells (MFCs) have been around since the mid 19th Century, but the technology was not considered to be a viable source
+of power generation, @Scott2016. They are considered desirable for wastewater treatment due to their ability to treat waste water whilst simultaneously generating electricity.
+
+Recently, these cells gave undergone a revival in research and sources such as @Herrero-Hernande2013 claim that the technology
+is now at a stage where it should be considered workable.
+
+Figure \ref{} below shows a typical diagram of an MFC.
 
 FIGURE HERE
 
@@ -73,7 +77,7 @@ The principal components of a Microbial Fuel Cell are an anode and a cathode, @L
 
 ## Key Parameters
 
-TABLE OF PARAMETERS
+
 
 - These are a mix of operational and fundamental e.g. temperature is an operational variable but material and architecture aren't
 - Should mention all of these below but might be able to break it up
