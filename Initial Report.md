@@ -17,6 +17,9 @@ bibliography: Dissertation_References.bib
 fontsize: 12pt
 nocite: |
     @Zhang1995
+
+link-citations: true
+
 header-includes: |
         \usepackage{float}
         \floatstyle{ruled}
