@@ -15,6 +15,8 @@ documentclass: article
 bibliography: Dissertation_References.bib
 
 fontsize: 12pt
+nocite: |
+    @Zhang1995
 header-includes: |
         \usepackage{float}
         \floatstyle{ruled}
@@ -69,9 +71,14 @@ of power generation, @Scott2016. They are considered desirable for wastewater tr
 Recently, these cells gave undergone a revival in research and sources such as @Herrero-Hernande2013 claim that the technology
 is now at a stage where it should be considered workable.
 
-Figure \ref{} below shows a typical diagram of an MFC.
+Figure \ref{fig:ZH_Diagram} below shows a typical diagram of an MFC.
 
-FIGURE HERE
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{ZH_Diagram.png}
+  \caption{Diagram of a Microbial Fuel Cell (Zhang and Halme, 1995)}
+  \label{fig:ZH_Diagram}
+\end{figure}
+
 
 The principal components of a Microbial Fuel Cell are an anode and a cathode, @Logan2008. These can be arranged in a variety of ways with multiple of either comprising the cell. In addition, a membrane can be included to separate anodic and cathodic liquids however these are not preferred as they increase the internal resistance of the cell, reducing electron transfer.  
 
@@ -242,3 +249,5 @@ on the anode whilst @Zheng2010 developed a model based on the cathode. This was 
 - Previous modelling experience
 
 # References
+
+\footnotesize
