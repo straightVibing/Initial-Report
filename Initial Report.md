@@ -105,10 +105,10 @@ Table: List of parameters
     - Would previous experience be interesting/useful?
 
 
-# Technical background 
+# Technical information
 
-- Here to provide technological context to the topic as a whole as well as the literature review
-- Level of detail will be iterated depending on how the doc flows
+This section has been designed to provide technical context to a reader who may be looking for some background on Microbial Fuel Cells
+and concerns the key parameters mentioned earlier.
 
 ## Power Generation 
 - Polarisation and power curves are used to characterise MFC power generation
