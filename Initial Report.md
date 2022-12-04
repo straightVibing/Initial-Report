@@ -77,12 +77,8 @@ The principal components of a Microbial Fuel Cell are an anode and a cathode, @L
 
 ## Key Parameters
 
-
-
-- These are a mix of operational and fundamental e.g. temperature is an operational variable but material and architecture aren't
-- Should mention all of these below but might be able to break it up
-
-Table \ref{tab:parameters} below contains the key parameters for consideration when discussing Microbial Fuel Cells
+The key operational and fundamental parameters that affect MFCs are shown below in Table \ref{tab:parameters}. Several of these have
+been expanded within the Technical Background section of this proposal.
 
 | Parameter | Fixed or Variable |
 | --------- | ----------------- |
@@ -99,11 +95,8 @@ Table \ref{tab:parameters} below contains the key parameters for consideration w
 Table: List of parameters
 \label{tab:parameters}
 
-POTENTIALLY TALK ABOUT POWER GENERATION HERE
-
-
-
 # Motivation
+
 
 - Avid hiker and canoer 
 - I want to help this problem 
