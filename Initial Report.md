@@ -155,6 +155,8 @@ Due to the biological nature of MFCs, the purity of bacterial species used on th
 However, this comes at the cost of an increased cost to procure the bacteria, due to the inherent difficulty of fully separating bacterial strains, as well as the risk of contamination from wastewater. On the other hand, mixed cultures are better for overall functionality due to their reduced substrate specificity and resistance to shock load conditions. Therefore, the more feasible MFC designs for scale-up will contain mixed cultures.
 
 - NEEDS MORE DETAIL
+- Not sure what
+- More examples
 
 ## Biofilm
 
@@ -163,6 +165,7 @@ The biofilm of an MFC is the layers of bacteria that form on the anode. As the t
 - NEEDS MORE DETAIL
 - Comment on the fact that most implementations have basic implementation of what happens in a biofilm
 - Either taken from literature or assumptions
+- In-depth Analysis of biofilm is very rarely considered
 
 ## Architecture
 
@@ -209,7 +212,7 @@ A potential configuration for a domestic Wastewater Treatment Plant (WWTP) was c
 First the wastewater is screened to remove large pieces of debris that may have entered upstream. The wastewater's flow is then measured and recorded. This allows for comparison with past data to determine any anomalous flow that may enter the system as a result of flooding or similar events. The wastewater then undergoes grit removal to prevent gritty particles such as coffee grinds 
 or bones from damaging pumps. Typically, this will involve a hydraulic residence time (HRT) of between 1-20 minutes. Following this, the wastewater will be tested for either its biochemical oxygen demand (BOD) or its chemical oxygen demand (COD). The BOD takes 5 days and shows what material can be biologically removed, whilst the rapid COD test provides an assessment of all organic matter present.  
 
-Some biological material present as particulates is then removed in the primary clarifier, usually by collecting solids that accumulate at the bottom of the tank in a process with a HRT between 1-3 hours. Once this has been done the biological material will have been reduced to around 200 mg L$^{-1}$ and the water will be ready for the wastewater treatment. It is proposed that this step will be done by a system based on MFCs to take advantage of the electricity generation and other related benefits over current systems. Finally, the wastewater goes a chlorination stage to kill of any remaining bacteria and then a dechlorination stage to prevent harm coming to aquatic life located where the water is released. 
+Some biological material present as particulates is then removed in the primary clarifier, usually by collecting solids that accumulate at the bottom of the tank in a process with an HRT between 1-3 hours. Once this has been done the biological material will have been reduced to around 200 mg L$^{-1}$ and the water will be ready for the wastewater treatment. It is proposed that this step will be done by a system based on MFCs to take advantage of the electricity generation and other related benefits over current systems. Finally, the wastewater goes a chlorination stage to kill of any remaining bacteria and then a dechlorination stage to prevent harm coming to aquatic life located where the water is released. 
 
 # Literature Review
 
