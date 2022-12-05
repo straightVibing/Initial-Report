@@ -115,12 +115,16 @@ Table: List of parameters
     - Would previous experience be interesting/useful?
 
 
-# Technical information
+# Technical Context & Overview
 
 This section has been designed to provide technical context to a reader who may be looking for some background on Microbial Fuel Cells
 and concerns the key parameters mentioned earlier.
 
 ## Power Generation 
+
+A typical circuit arrangement involves including a source of external resistance alongside the MFC, @Logan2008. It is essential to use an external source of resistance as the internal resistance inside the cell is not enough for feasible power generation and increasing it would rapidly decrease the performance of the cell. Alternating this external resistance within a circuit provides a variable voltage output.
+
+
 - Polarisation and power curves are used to characterise MFC power generation
 - Changing the external resistance provides variable voltage
 - External resistance has to be used as low resistance in the cell is not enough for feasible power generation
@@ -157,6 +161,8 @@ However, this comes at the cost of an increased cost to procure the bacteria, du
 The biofilm of an MFC is the layers of bacteria that form on the anode. As the thickness of the biofilm increases the quantity of bacteria increases, this allows for an increased rate of electron release as the organic matter present is broken down. However, if the biofilm is too thick then there will be mass transport issues that will reduce the power output of the cell. As a result, according to @Logan2008, biofilms are generally a few millimetres thick.  
 
 - NEEDS MORE DETAIL
+- Comment on the fact that most implementations have basic implementation of what happens in a biofilm
+- Either taken from literature or assumptions
 
 ## Architecture
 
