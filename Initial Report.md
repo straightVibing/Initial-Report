@@ -156,6 +156,8 @@ A related parameter is the Coulombic efficiency which is the fraction of electro
 Due to the biological nature of MFCs, the purity of bacterial species used on the anode is a parameter for optimisation as considered by @Jadhav2020. Pure cultures tend to produce an increased power output and Coulombic efficiency compared to mixed cultures.
 However, this comes at the cost of an increased cost to procure the bacteria, due to the inherent difficulty of fully separating bacterial strains, as well as the risk of contamination from wastewater. On the other hand, mixed cultures are better for overall functionality due to their reduced substrate specificity and resistance to shock load conditions. Therefore, the more feasible MFC designs for scale-up will contain mixed cultures.
 
+However, cells using pure cultures are useful to explain the electron transfer mecvhanisms within.  
+
 - NEEDS MORE DETAIL
 - Not sure what
 - More examples
