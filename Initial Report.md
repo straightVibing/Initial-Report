@@ -112,7 +112,7 @@ Table: List of parameters
 - I want to help this problem 
 - I enjoy clean water
 - I like modelling
-    - Would previous experience be interesting/useful?
+
 
 
 # Technical Context & Overview
@@ -166,13 +166,14 @@ The biofilm of an MFC is the layers of bacteria that form on the anode. As the t
 - Comment on the fact that most implementations have basic implementation of what happens in a biofilm
 - Either taken from literature or assumptions
 - In-depth Analysis of biofilm is very rarely considered
+- Comment on that
 
 ## Architecture
 
 - The previous work should go into the introduction section
 - It makes the most sense when compared with the diagram from Zhang and Halme 
 - What should go here is the stuff that appears in the literature review
-- Half and full cell models and how they relate to chamber MFCs
+- Half and full cell models and how they relate to single and double chamber MFCs
 
 
 ## Materials
@@ -235,6 +236,14 @@ time spent modelling them is not being wasted.
 
 ## Modelling Work
 
+- methodologies 
+- approaches
+- equations
+- assumptions
+- Aim for a 1/2 a page more
+- Pick out interesting points at the end of modelling work
+- Link to objectives section
+
 The large amount of experimental work provides plenty of data to validate new and existing MFC models. One such example 
 is a model developed by @Oliveira2013 that could correctly predict how the substrate concentration and temperature affected the cells biofilm thickness and performance. As part of this the 
 temperature considered by model was adjusted between the values of 20$^{\circ}$C, 30$^{\circ}$C and 40$^{\circ}$C. 
@@ -247,8 +256,9 @@ on the anode whilst @Zheng2010 developed a model based on the cathode. This was 
 
 # Objectives 
 
-- MAKE THESE "SMART" 
-- MORE SPECIFIC AND DETAILED THAN THE ONES IN THE LITERATURE ANALYSIS
+- As bullet points with sentence underneath for justification
+- Link to end of modelling review
+
 
 # Project Schedule 
 
