@@ -263,6 +263,16 @@ The research involved testing the power output of MFCs between 4-30$^{\circ}$C h
 quantities of power and could be used within a WWTP in the UK. This is an important fact to establish prior to any modelling work as it demonstrates that operation of these cells at lower temperatures is possible and therefore 
 time spent modelling them is not being wasted. 
 
+Further work has been done testing the ability of MFCs to directly treat wastewater discharge at its source. @Harewood2017 and @Wen2009 have both investigated the potential of 
+these cells to treat brewery wastewater whilst @Rahman2018 considered the treatment of sugar beet processing wastewater. These experiments were able to produce power in addition
+to dealing with the industrial waste created, highlighting the feasibility of treating wastewater at the source. 
+
+@Wen2009 used a single air-cathode MFC using carbon fibre as the anode material whilst @Harewood2017 used a dual chamber setup which most notably contained a chitosan/polymalic acid-citric acid membrane. This was designed to introduce multiple charged groups to increase mass transport through the cell. These two studies saw very different maximum
+densities with @Wen2009 achieving a a density of 264 mW/m$^2$ whilst @Harewood2017 achieved a density of 3022.39 mW/m$^2$. It is worth noting that the former used a COD of
+626.58 mg/L whilst the latter had a COD of 3228 mg/L an increase of 525%. Whilst this goes some way to explaining the large difference in power densities a further explanation
+is that the technology surrounding MFCs has improved since the initial experiment conducted by @Wen2009. 
+
+
 ## Modelling Work
 
 - methodologies 
