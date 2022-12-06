@@ -243,19 +243,6 @@ For instance, comprehensive models that seek to model all major processes such a
 
 The experimental work concerning MFCs has been studied for longer than the modelling aspect and as a result there are plenty of papers available that provide experimental data for comparison with the results from a model. For this project, the main papers considered for this proposal focused on long term operation of MFCs. @Santoro2012 operated a cell for 26 weeks, operated at 30$^{\circ}$C whilst @Moon2006 were able to operate multiple cells for 2 years over a range of temperatures. These results illustrate the operational viability of MFCs as successful long term operation reduces the need for maintenance or replacement of cells. This in turn allows MFC systems to be operated for longer resulting in reliable wastewater treatment.
 
-MORE EXPERIMENTAL WORK
-WASTE PRODUCTS OF INDUSTRIAL PROCESSES
-TALK ABOUT IT FROM THE PERSPECTIVE OF TREATING WASTEWATER AT SOURCE
-
- - Brewery wastewater was used as the substrates in an MFC with special chitosan copolymer proton exchange membrane. The maximum current 
- and power densities of this MFC were 111.94 mA/m2 and 3022.39 mW/m2 ,respectively @Harewood2017
-
-- Beer water also done by @Wen2009
-
- - @Rahman2018 Sugar beet processing wastewater was also used for electricity generation in a dual chamber MFC. Raw sugar beet
- processing wastewater was diluted to different concentrations and fed to the anode in batch-mode. A maximum power density of 14.9 mW/
- m2 was obtained
-
 However, the temperatures considered by both of these papers are not reflective of typical temperatures of UK wastewater _Access Database evidence_. Therefore, the is scope for research into the performance of MFCs at lower temperatures to determine potential power outputs and thus potential feasibility. 
 
 To provide experimental data for direct comparison with the proposed model the work done by @Cheng2011 has been considered.
@@ -293,11 +280,12 @@ Other potential models that could be used as the basis for the project include t
 experimental data despite being based on different principles. @Pinto2010 developed a half-cell model based 
 on the anode whilst @Zheng2010 developed a model based on the cathode. This was unusual as the anodic step is generally considered to be reaction limiting. The existence and accuracy of these models demonstrates that there is good degree of flexibility available when initially building and then refining a model. As a result, the final model considered by the project may differ significantly from the one considered initially. 
 
-### Methods and Assumptions
-
-- @Pinto2010 and @Littfinski2022 made similar assumptions that the biofilm formation and retention within the model is taken from a 
-different and specific biofilm model
-- Substrate gradient neglected @Littfinski2022 and @Wang2011
+It is notable that @Pinto2010 and another model by @Littfinski2022 used similar assumptions concerning the biofilm formation and retention. In both cases the expected changes to
+the biofilm were not computed by the model directly but were instead taken from a different and specific biofilm model designed to model biofilm growth on an anode. This is a 
+fairly common practice among MFC models, @Ortiz-Martínez2015, and is done due to the difficulty of integrating a more complete simulation of the biofilm's growth within an MFC
+model. Other notable assumptions include a fixed cathode potential as mentioned by @Xia2018 which is used for single chamber, half cell models concerning the anode. Additionally, some models such as those by @Zhang1995 assumed that the mass transport through the cell was rapid to be discounted. This assumption was made as this model was one
+of the very first models created to model MFC performance and is very rarely used today, @Ortiz-Martínez2015. A further assumption, made by @Littfinski2022 and @Wang2011 is to
+neglect the substrate consumption gradient within the cell and instead assume a fixed value. 
 
 # Objectives 
 
