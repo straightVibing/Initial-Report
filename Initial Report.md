@@ -83,6 +83,8 @@ Figure \ref{fig:ZH_Diagram} below shows a typical diagram of an MFC.
 \end{figure}
 
 
+- MFCs oxidise organic components to release electrons and protons @Yujin2019
+
 The principal components of a Microbial Fuel Cell are an anode and a cathode, @Logan2008. These can be arranged in a variety of ways with multiple of either comprising the cell. In addition, a membrane can be included to separate anodic and cathodic liquids however these are not preferred as they increase the internal resistance of the cell, reducing electron transfer.  
 
 ## Key Parameters
@@ -158,6 +160,12 @@ However, this comes at the cost of an increased cost to procure the bacteria, du
 - Not sure what
 - More examples
 
+- @Yujin2019
+  - Pure cultures are useful to clarify electron transfer mechanisms
+  - Potential link to biofilm section here
+  - Distillary wastewater waster water contains orgianic substrates could be used as its been done successfully in the past
+  - LINK TO THIS IN THE PROPER REVIEW SECTION
+
 ## Biofilm
 
 The biofilm of an MFC is the layers of bacteria that form on the anode. As the thickness of the biofilm increases the quantity of bacteria increases, this allows for an increased rate of electron release as the organic matter present is broken down. However, if the biofilm is too thick then there will be mass transport issues that will reduce the power output of the cell. As a result, according to @Logan2008, biofilms are generally a few millimetres thick.  
@@ -165,8 +173,14 @@ The biofilm of an MFC is the layers of bacteria that form on the anode. As the t
 - NEEDS MORE DETAIL
 - Comment on the fact that most implementations have basic implementation of what happens in a biofilm
 - Either taken from literature or assumptions
-- In-depth Analysis of biofilm is very rarely considered
+- In-depth Analysis of biofilm is very rarely considered - metioned later on
 - Comment on that
+
+- @Yujin2019
+  - Mentions different types of electron transfer: direct and indirect
+  - Would be good to have another source that concurs
+
+
 
 ## Architecture
 
@@ -198,7 +212,9 @@ The flow rate of wastewater dictates the available COD for the cell. By increasi
 
 ## Temperature
 
-As the processes inside a MFC are fundamentally biological in nature the cell is affected by temperature. A higher temperature correlates with a larger power output as lower temperatures slow down the growth and reproduction of bacteria. 
+As the processes inside an MFC are fundamentally biological in nature the cell is affected by temperature. A higher temperature correlates with a larger power output as lower temperatures slow down the growth and reproduction of bacteria. 
+
+- Cold temperatures considered by @Dai2022
 
 # Wastewater Treatment
 
@@ -227,6 +243,19 @@ For instance, comprehensive models that seek to model all major processes such a
 
 The experimental work concerning MFCs has been studied for longer than the modelling aspect and as a result there are plenty of papers available that provide experimental data for comparison with the results from a model. For this project, the main papers considered for this proposal focused on long term operation of MFCs. @Santoro2012 operated a cell for 26 weeks, operated at 30$^{\circ}$C whilst @Moon2006 were able to operate multiple cells for 2 years over a range of temperatures. These results illustrate the operational viability of MFCs as successful long term operation reduces the need for maintenance or replacement of cells. This in turn allows MFC systems to be operated for longer resulting in reliable wastewater treatment.
 
+MORE EXPERIMENTAL WORK
+WASTE PRODUCTS OF INDUSTRIAL PROCESSES
+TALK ABOUT IT FROM THE PERSPECTIVE OF TREATING WASTEWATER AT SOURCE
+
+ - Brewery wastewater was used as the substrates in an MFC with special chitosan copolymer proton exchange membrane. The maximum current 
+ and power densities of this MFC were 111.94 mA/m2 and 3022.39 mW/m2 ,respectively @Harewood2017
+
+- Beer water also done by @Wen2009
+
+ - @Rahman2018 Sugar beet processing wastewater was also used for electricity generation in a dual chamber MFC. Raw sugar beet
+ processing wastewater was diluted to different concentrations and fed to the anode in batch-mode. A maximum power density of 14.9 mW/
+ m2 was obtained
+
 However, the temperatures considered by both of these papers are not reflective of typical temperatures of UK wastewater _Access Database evidence_. Therefore, the is scope for research into the performance of MFCs at lower temperatures to determine potential power outputs and thus potential feasibility. 
 
 To provide experimental data for direct comparison with the proposed model the work done by @Cheng2011 has been considered.
@@ -253,6 +282,12 @@ of the temperature. Therefore, this model could potentially be adapted to invest
 Other potential models that could be used as the basis for the project include those considered by @Pinto2010 and @Zheng2010. Both of these were able to successfully predict MFC behaviour and performance when compared to 
 experimental data despite being based on different principles. @Pinto2010 developed a half-cell model based 
 on the anode whilst @Zheng2010 developed a model based on the cathode. This was unusual as the anodic step is generally considered to be reaction limiting. The existence and accuracy of these models demonstrates that there is good degree of flexibility available when initially building and then refining a model. As a result, the final model considered by the project may differ significantly from the one considered initially. 
+
+### Methods and Assumptions
+
+- @Pinto2010 and @Littfinski2022 made similar assumptions that the biofilm formation and retention within the model is taken from a 
+different and specific biofilm model
+- Substrate gradient neglected @Littfinski2022 and @Wang2011
 
 # Objectives 
 
