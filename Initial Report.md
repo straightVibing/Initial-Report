@@ -101,8 +101,7 @@ Figure \ref{fig:ZH_Diagram} below shows a typical diagram of an MFC.
 \end{figure}
 
 
-- MFCs oxidise organic components to release electrons and protons @Yujin2019
-
+MFCs operate by oxidising organic components to release electrons and protons,@Yujin2019, which are then used for power generation.
 The principal components of a Microbial Fuel Cell are an anode and a cathode, @Logan2008. These can be arranged in a variety of ways with multiple of either comprising the cell. In addition, a membrane can be included to separate anodic and cathodic liquids however these are not preferred as they increase the internal resistance of the cell, reducing electron transfer.  
 
 ## Key Parameters
