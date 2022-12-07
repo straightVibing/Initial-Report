@@ -66,8 +66,9 @@ Changes since last meeting: 29/11
 - Updated cover page
 - Expansion on mixed versus pure
 - Added to experimental work writeup
-- Added modelling assumptions
+- Added modelling assumptions: biofilm 
 - power and polarisation curve writeup
+- Added to biofilm section
 
 # Abstract 
 
@@ -175,17 +176,8 @@ However, this comes at the cost of an increased cost to procure the bacteria, du
 
 The biofilm of an MFC is the layers of bacteria that form on the anode. As the thickness of the biofilm increases the quantity of bacteria increases, this allows for an increased rate of electron release as the organic matter present is broken down. However, if the biofilm is too thick then there will be mass transport issues that will reduce the power output of the cell. As a result, according to @Logan2008, biofilms are generally a few millimetres thick.  
 
-- NEEDS MORE DETAIL
-- Comment on the fact that most implementations have basic implementation of what happens in a biofilm
-- Either taken from literature or assumptions
-- In-depth Analysis of biofilm is very rarely considered - mentioned later on
-- Comment on that
-
-- @Yujin2019
-  - Mentions different types of electron transfer: direct and indirect
-  - Would be good to have another source that concurs
-
-
+Within literature there are two main types of electron transfer through the cell, direct and indirect. Direct electron transfer involves direct contact between the bacterial cell surface and the electrode, whilst indirect transfer uses electron mediators, @Yujin2019. For examples, @Paquete2014 investigated the effects of different electron "shuttles" on electron transfer but notes that 
+the area remains poorly explored.
 
 ## Architecture
 
