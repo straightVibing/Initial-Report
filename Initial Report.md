@@ -67,6 +67,7 @@ Changes since last meeting: 29/11
 - Expansion on mixed versus pure
 - Added to experimental work writeup
 - Added modelling assumptions
+- power and polarisation curve writeup
 
 # Abstract 
 
@@ -165,19 +166,10 @@ A related parameter is the Coulombic efficiency which is the fraction of electro
 ## Mixed vs pure culture 
 
 Due to the biological nature of MFCs, the purity of bacterial species used on the anode is a parameter for optimisation as considered by @Jadhav2020. Pure cultures tend to produce an increased power output and Coulombic efficiency compared to mixed cultures.
+In addition, as stated by @Yujin2019 cells using pure cultures are useful to explain the complicated electron transfer mechanisms within MFCs.  
+
 However, this comes at the cost of an increased cost to procure the bacteria, due to the inherent difficulty of fully separating bacterial strains, as well as the risk of contamination from wastewater. On the other hand, mixed cultures are better for overall functionality due to their reduced substrate specificity and resistance to shock load conditions. Therefore, the more feasible MFC designs for scale-up will contain mixed cultures.
 
-However, cells using pure cultures are useful to explain the electron transfer mechanisms within. 
-
-- NEEDS MORE DETAIL
-- Not sure what
-- More examples
-
-- @Yujin2019
-  - Pure cultures are useful to clarify electron transfer mechanisms
-  - Potential link to biofilm section here
-  - Distillary wastewater waster water contains orgianic substrates could be used as its been done successfully in the past
-  - LINK TO THIS IN THE PROPER REVIEW SECTION
 
 ## Biofilm
 
