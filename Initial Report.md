@@ -50,41 +50,6 @@ header-includes: |
 
 \tableofcontents
 
-
-Changes since last meeting: 29/11
-
-- Source for high flowrates
-- Source for cathodic chamber flooding
-- Source for carbon cloth
-- Moved previous writeup of archetechture to the beginning as I thought it made more sense there
-- Source that MFCs are good for wastewater treatment that isnt logan
-- Wrote up an introduction
-- Brief writeup for key parameters
-- Brief intro to technical section
-- Oxidising agent writeup 
-- Added MFC diagram 
-- Updated cover page
-- Expansion on mixed versus pure
-- Added to experimental work writeup
-- Added modelling assumptions: biofilm 
-- power and polarisation curve writeup
-- Added to biofilm section
-
-Current TODOs:
-
-- Architecture writeup
-- Expand temperature section
-- Modelling
-  - Methodologies 
-  - Approaches
-  - Equations
-- Project schedule
-
-Questions:
-
-- Gantt Chart tips + software
-- Massive literature review that includes the technical background?
-
 # Abstract 
 
 - May not be necessary
