@@ -70,6 +70,21 @@ Changes since last meeting: 29/11
 - power and polarisation curve writeup
 - Added to biofilm section
 
+Current TODOs:
+
+- Architecture writeup
+- Expand temperature section
+- Modelling
+  - Methodologies 
+  - Approaches
+  - Equations
+- Project schedule
+
+Questions:
+
+- Gantt Chart tips + software
+- Massive literature review that includes the technical background?
+
 # Abstract 
 
 - May not be necessary
