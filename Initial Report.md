@@ -50,6 +50,24 @@ header-includes: |
 
 \tableofcontents
 
+
+Changes since last meeting: 29/11
+
+- Source for high flowrates
+- Source for cathodic chamber flooding
+- Source for carbon cloth
+- Moved previous writeup of archetechture to the beginning as I thought it made more sense there
+- Source that MFCs are good for wastewater treatment that isnt logan
+- Wrote up an introduction
+- Brief writeup for key parameters
+- Brief intro to technical section
+- Oxidising agent writeup 
+- Added MFC diagram 
+- Updated cover page
+- Expansion on mixed versus pure
+- Added to experimental work writeup
+- Added modelling assumptions
+
 # Abstract 
 
 - May not be necessary
@@ -156,7 +174,7 @@ A related parameter is the Coulombic efficiency which is the fraction of electro
 Due to the biological nature of MFCs, the purity of bacterial species used on the anode is a parameter for optimisation as considered by @Jadhav2020. Pure cultures tend to produce an increased power output and Coulombic efficiency compared to mixed cultures.
 However, this comes at the cost of an increased cost to procure the bacteria, due to the inherent difficulty of fully separating bacterial strains, as well as the risk of contamination from wastewater. On the other hand, mixed cultures are better for overall functionality due to their reduced substrate specificity and resistance to shock load conditions. Therefore, the more feasible MFC designs for scale-up will contain mixed cultures.
 
-However, cells using pure cultures are useful to explain the electron transfer mecvhanisms within.  
+However, cells using pure cultures are useful to explain the electron transfer mechanisms within. 
 
 - NEEDS MORE DETAIL
 - Not sure what
@@ -175,7 +193,7 @@ The biofilm of an MFC is the layers of bacteria that form on the anode. As the t
 - NEEDS MORE DETAIL
 - Comment on the fact that most implementations have basic implementation of what happens in a biofilm
 - Either taken from literature or assumptions
-- In-depth Analysis of biofilm is very rarely considered - metioned later on
+- In-depth Analysis of biofilm is very rarely considered - mentioned later on
 - Comment on that
 
 - @Yujin2019
