@@ -143,16 +143,10 @@ and concerns the key parameters mentioned earlier.
 
 A typical circuit arrangement involves including a source of external resistance alongside the MFC, @Logan2008. It is essential to use an external source of resistance as the internal resistance inside the cell is not enough for feasible power generation and increasing it would rapidly decrease the performance of the cell. Alternating this external resistance within a circuit provides a variable voltage output.
 
-
-- Polarisation and power curves are used to characterise MFC power generation
-- Changing the external resistance provides variable voltage
-- External resistance has to be used as low resistance in the cell is not enough for feasible power generation
-- We don't want to increase internal resistance because the cell will perform significantly worse
-- _Use a good example to illustrate to the reader_
-- We can use polarisation curve to calculate current and plot current vs voltage or current density
-- Generally split into three sections - middle is the most important as it shows internal resistance of cell
-- Shows how well the MFC maintains a voltage as a function of current production
-- Maximum power can be read off the top of the curve
+This output can be used to plot a polarisation curve of the external resistance against the cell voltage which can be used to calculate
+the current. From this the current density can be plotted against the cell voltage to produce a power curve. This power curve can generally be divided into three separate zones, referred to as the kinetic region, ohmic region and the mass-transfer region. 
+This is because as the current density increases different factors hold more sway over the cell. The most important region is the ohmic
+region as this shows the internal resistance of the cell, a key parameter to be minimised.
 
 ## Feed COD 
 
