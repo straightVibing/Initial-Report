@@ -68,6 +68,7 @@ Changes since last meeting: 29/11
 - Added to experimental work writeup
 - Added modelling assumptions: biofilm 
 - power and polarisation curve writeup
+- Added to biofilm section
 
 # Abstract 
 
