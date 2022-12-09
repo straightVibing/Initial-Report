@@ -34,15 +34,14 @@ header-includes: |
         \floatname{eq}{Equation}
         \restylefloat{eq}
         \usepackage{graphicx}
+        \usepackage{lastpage}
         \usepackage{fancyhdr}
         \pagestyle{fancy}
         \fancyhead[L]{Initial Report}
         \fancyhead[R]{Fred Barrett}
+        \cfoot{Page \thepage\ of \pageref{LastPage}}
         \usepackage{hyperref}
         \usepackage{amsmath}
-        \usepackage{wrapfig}
-        \usepackage{lipsum}
-        \usepackage{blindtext}
         \usepackage{pdfpages}
 ---
 
