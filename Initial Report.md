@@ -266,6 +266,15 @@ neglect the substrate consumption gradient within the cell and instead assume a 
 
 # Objectives 
 
+- Based of the lit review clear deficit of modelling temperature
+- Despite experimental work considering it
+- Borad aim is to modeel it
+- Specifically this means to 
+
+- Create a model that is able to calculate the results of temperature on key design parameters, such as COD removal efficiency and power generation
+- Assess minimum viable operating temperatures and areas of concern 
+- Determine expected power production at necessary levels of wastewater treatment
+
 
 \begin{landscape}
 
