@@ -289,6 +289,8 @@ A proposed work schedule for the upcoming project is shown below in Figure \ref{
 
 \end{landscape}
 
+## Milestones and Deliverables
+
 The project plan above features several key milestones and deliverables, notated with 'M' and 'D' respectively. These have been added 
 for future reference to ensure that the project is on track and show the expected completion time of the assessed tasks.
 
@@ -303,7 +305,10 @@ These milestones should help in the completion of the deliverables. Deliverable 
 have undergone several changes and iterations based upon feedback from the Supervisor. As the report is worth 40 credits, missing the deadline would be undesirable. Deliverable 2 is the production of either a presentation or poster that will be used
 to summarise and present the key findings of the project. 
 
+## Resource Requirements
 
+As the project will be modelling based, very few resources are necessary due to the public availability of models and their design as 
+well as the accessibility of the chosen software suite (MATLAB) on both University computers and personal devices.  
 
 # References
 
