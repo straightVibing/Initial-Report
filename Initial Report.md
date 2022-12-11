@@ -43,6 +43,7 @@ header-includes: |
         \usepackage{hyperref}
         \usepackage{amsmath}
         \usepackage{pdfpages}
+        \usepackage{pdflscape}
 ---
 
 \includepdf[pages=-,scale=1.1]{CoverPage.pdf}
@@ -265,19 +266,17 @@ neglect the substrate consumption gradient within the cell and instead assume a 
 
 # Objectives 
 
-- As bullet points with sentence underneath for justification
-- Link to end of modelling review
+
+\begin{landscape}
+
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{ZH_Diagram.png}
+  \caption{Diagram of a Microbial Fuel Cell (Zhang and Halme, 1995)}
+  \label{fig:test}
+\end{figure}
 
 
-# Project Schedule 
-
-- Gantt Chart
-    - Detailed
-    - Coursework dates
-    - Term dates
-    - Supervisor meetings?
-    - Clear stages 
-- Previous modelling experience
+\end{landscape}
 
 # References
 
