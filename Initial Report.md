@@ -37,7 +37,7 @@ header-includes: |
         \usepackage{lastpage}
         \usepackage{fancyhdr}
         \pagestyle{fancy}
-        \fancyhead[L]{Initial Report}
+        \fancyhead[L]{Dissertation Proposal}
         \fancyhead[R]{Fred Barrett}
         \cfoot{Page \thepage\ of \pageref{LastPage}}
         \usepackage{hyperref}
