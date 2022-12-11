@@ -266,15 +266,16 @@ neglect the substrate consumption gradient within the cell and instead assume a 
 
 # Objectives 
 
-- Based of the lit review clear deficit of modelling temperature
-- Despite experimental work considering it
-- Borad aim is to modeel it
-- Specifically this means to 
+From the above literature review, it is clear that there is a deficit in the papers modelling the effects of temperature on Microbial 
+Fuel Cells. This is despite available data on the subject. The broad aim of the dissertation will therefore be to model the effects of 
+temperature on these cells. This breaks down into the following objectives:
 
-- Create a model that is able to calculate the results of temperature on key design parameters, such as COD removal efficiency and power generation
-- Assess minimum viable operating temperatures and areas of concern 
-- Determine expected power production at necessary levels of wastewater treatment
+1. Produce a model that is able to calculate the effects of temperature of key design parameters of a typical MFC such as its COD 
+removal efficiency and power generation.
 
+2. Use said model to determine achieveable levels of wastewater treatment and power generation at lower temperatures.
+
+3. Assess and comment on the viability of using such a cell within the UK's wastewater management scheme.
 
 \begin{landscape}
 
