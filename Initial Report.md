@@ -210,8 +210,6 @@ Some biological material present as particulates is then removed in the primary 
 
 # Literature Review
 
-- GO BACK AND MENTION PARAMETERS CONSIDERED EARLIER
-
 Within recent years interest in MFCs has increased. This is made clear by review papers considering the current state of modelling work such as those by @Ortiz-Martínez2015 and @Xia2018. These papers are very useful as they provide a broad overview into the technical work in key areas such as potential cell architecture, key parameters to consider and common model assumptions.
 
 For instance, comprehensive models that seek to model all major processes such as the mass diffusion and substrate consumption can be either half cell models that consider the activity around the anode or full cell models that consider both the anode and cathode. Whilst the reaction around the anode is generally considered the limiting stage within the cell, the model for this proposed project will be a full model to provide as much insight into the internal processes of the cell when supplied with a low temperature feed. As a result, the model will be able to produce outputs relating to the biofilm thickness, fuel flow rate and concentration in addition to the electricity generation for comparison to experimental data. 
@@ -279,7 +277,7 @@ removal efficiency and power generation.
 
 # Work Schedule
 
-A proposed work schedule for the upcoming project is shown below in Figure \ref{fig:WS}
+A proposed work schedule for the upcoming project is shown below in Figure \ref{fig:WS}.
 
 \begin{landscape}
 
@@ -289,11 +287,23 @@ A proposed work schedule for the upcoming project is shown below in Figure \ref{
   \label{fig:WS}
 \end{figure}
 
-
-Discussion of Milestones and Deliverables here
-
-
 \end{landscape}
+
+The project plan above features several key milestones and deliverables, notated with 'M' and 'D' respectively. These have been added 
+for future reference to ensure that the project is on track and show the expected completion time of the assessed tasks.
+
+Milestone 1 
+will be reached when a modified model has been tested and validated for use in the project. This is key to ensuring that the project 
+is able to deliver on its intended objectives. Milestone 2 will be reached when this model has been used to produce then desire outputs
+which have then been analysed. This is essential to ensure that the dissertation report is able to provide key insights into the 
+technical challenges facing MFCs as well as a commentary on their effectiveness at different temperatures. Milestone 3 will be 
+completed when the draft report contains a detailed write-up of the previous milestones. This is a crucial step to complete as otherwise there may not be sufficient time to produce a quality report that accurately reflects the work done. 
+
+These milestones should help in the completion of the deliverables. Deliverable 1 is a report finished to a high standard that will
+have undergone several changes and iterations based upon feedback from the Supervisor. As the report is worth 40 credits, missing the deadline would be undesirable. Deliverable 2 is the production of either a presentation or poster that will be used
+to summarise and present the key findings of the project. 
+
+
 
 # References
 
